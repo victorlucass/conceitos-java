@@ -14,7 +14,6 @@ public class ExpressaoCondicionalTernaria {
         int preco = input.nextInt();
         input.close();
 
-
         int desconto = (preco >= 100) ? (int) (preco * 0.10) : preco * 0;
 
         int precoDesconto = preco-desconto;
